@@ -1,0 +1,201 @@
+.elementor-kit-5 {
+    --e-global-color-primary: #a89180;
+    --e-global-color-secondary: #ddd1c8;/*barra que avanza en programa*/
+    --e-global-color-text: #A99180;
+    --e-global-color-accent: #A99180;/*barra que avanza en programa*/
+    --e-global-color-tertiary: #d2c4b9;
+    --e-global-color-quaternary: #dcc188;
+    --e-global-color-primary_hover: #b39f90;
+    --e-global-color-a0e19db: #000000;
+    --e-global-color-0acf708: #ffffff;
+    --e-global-color-72157f1: #020201;
+    --e-global-color-cd628d5: #2a0adf;
+    --e-global-color-b57fe68: #B07D701A;
+    --e-global-color-5482845: #1C2B4A; /*rosa A18594 ;  lila C8BECF ;morado 7E6280  ; azzul 1C2B4A*/
+    --e-global-color-12174e3: #FFFCF6;
+    --e-global-typography-primary-font-family: "Great Vibes";
+    --e-global-typography-primary-font-size: 46px;
+    --e-global-typography-secondary-font-family: "EB Garamond";
+    --e-global-typography-secondary-font-size: 20px;
+    --e-global-typography-secondary-line-height: 22px;
+    --e-global-typography-secondary-letter-spacing: 0px;
+    --e-global-typography-text-font-family: "EB Garamond";
+    --e-global-typography-text-font-size: 16px;
+    --e-global-typography-text-line-height: 18px;
+    --e-global-typography-accent-font-family: "EB Garamond";
+    --e-global-typography-accent-font-size: 16px;
+    --e-global-typography-accent-font-weight: 500;
+    --e-global-typography-accent-font-style: italic;
+    --e-global-typography-accent-line-height: 18px;
+    --e-global-typography-fbcefcb-font-family: "EB Garamond";
+    --e-global-typography-fbcefcb-font-size: 18px;
+    --e-global-typography-fbcefcb-line-height: 20px;
+    --e-global-typography-64cb027-font-family: "EB Garamond";
+    --e-global-typography-64cb027-font-size: 16px;
+    --e-global-typography-64cb027-font-weight: 500;
+    --e-global-typography-64cb027-line-height: 18px;
+    --e-global-typography-270b762-font-family: "EB Garamond";
+    --e-global-typography-270b762-font-size: 14px;
+    --e-global-typography-270b762-font-weight: 500;
+    --e-global-typography-270b762-line-height: 16px;
+    --e-global-typography-0f2e7ff-font-family: "EB Garamond";
+    --e-global-typography-0f2e7ff-font-size: 14px;
+    --e-global-typography-0f2e7ff-font-style: italic;
+    --e-global-typography-0f2e7ff-line-height: 16px;
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family);
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+    background-color: var(--e-global-color-5482845);
+}
+
+.elementor-kit-5 a {
+    font-family: var(--e-global-typography-accent-font-family);
+    font-size: var(--e-global-typography-accent-font-size);
+    font-weight: var(--e-global-typography-accent-font-weight);
+    font-style: var(--e-global-typography-accent-font-style);
+    line-height: var(--e-global-typography-accent-line-height);
+}
+
+.elementor-kit-5 h1 {
+    font-family: var(--e-global-typography-primary-font-family);
+    font-size: var(--e-global-typography-primary-font-size);
+}
+
+.elementor-kit-5 h2 {
+    font-family: var(--e-global-typography-secondary-font-family);
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+    letter-spacing: var(--e-global-typography-secondary-letter-spacing);
+}
+
+.elementor-kit-5 button,
+.elementor-kit-5 input[type="button"],
+.elementor-kit-5 input[type="submit"],
+.elementor-kit-5 .elementor-button {
+    font-family: var(--e-global-typography-accent-font-family);
+    font-size: var(--e-global-typography-accent-font-size);
+    font-weight: var(--e-global-typography-accent-font-weight);
+    font-style: var(--e-global-typography-accent-font-style);
+    line-height: var(--e-global-typography-accent-line-height);
+    color: var(--e-global-color-0acf708);
+    background-color: var(--e-global-color-accent);
+}
+
+.elementor-kit-5 button:hover,
+.elementor-kit-5 button:focus,
+.elementor-kit-5 input[type="button"]:hover,
+.elementor-kit-5 input[type="button"]:focus,
+.elementor-kit-5 input[type="submit"]:hover,
+.elementor-kit-5 input[type="submit"]:focus,
+.elementor-kit-5 .elementor-button:hover,
+.elementor-kit-5 .elementor-button:focus {
+    color: var(--e-global-color-0acf708);
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1000px;
+}
+
+.e-con {
+    --container-max-width: 1000px;
+    --container-default-padding-top: 0px;
+    --container-default-padding-right: 0px;
+    --container-default-padding-bottom: 0px;
+    --container-default-padding-left: 0px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-block-end: 0px;
+}
+
+.elementor-element {
+    --widgets-spacing: 0px 0px;
+}
+
+    {}
+
+h1.page-title {
+    display: var(--page-title-display);
+}
+
+.elementor-kit-5 e-page-transition {
+    background-color: #FFBC7D;
+}
+
+@media(max-width:991px) {
+    .elementor-kit-5 {
+        font-size: var(--e-global-typography-text-font-size);
+        line-height: var(--e-global-typography-text-line-height);
+    }
+
+    .elementor-kit-5 a {
+        font-size: var(--e-global-typography-accent-font-size);
+        line-height: var(--e-global-typography-accent-line-height);
+    }
+
+    .elementor-kit-5 h1 {
+        font-size: var(--e-global-typography-primary-font-size);
+    }
+
+    .elementor-kit-5 h2 {
+        font-size: var(--e-global-typography-secondary-font-size);
+        line-height: var(--e-global-typography-secondary-line-height);
+        letter-spacing: var(--e-global-typography-secondary-letter-spacing);
+    }
+
+    .elementor-kit-5 button,
+    .elementor-kit-5 input[type="button"],
+    .elementor-kit-5 input[type="submit"],
+    .elementor-kit-5 .elementor-button {
+        font-size: var(--e-global-typography-accent-font-size);
+        line-height: var(--e-global-typography-accent-line-height);
+    }
+
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-kit-5 {
+        font-size: var(--e-global-typography-text-font-size);
+        line-height: var(--e-global-typography-text-line-height);
+    }
+
+    .elementor-kit-5 a {
+        font-size: var(--e-global-typography-accent-font-size);
+        line-height: var(--e-global-typography-accent-line-height);
+    }
+
+    .elementor-kit-5 h1 {
+        font-size: var(--e-global-typography-primary-font-size);
+    }
+
+    .elementor-kit-5 h2 {
+        font-size: var(--e-global-typography-secondary-font-size);
+        line-height: var(--e-global-typography-secondary-line-height);
+        letter-spacing: var(--e-global-typography-secondary-letter-spacing);
+    }
+
+    .elementor-kit-5 button,
+    .elementor-kit-5 input[type="button"],
+    .elementor-kit-5 input[type="submit"],
+    .elementor-kit-5 .elementor-button {
+        font-size: var(--e-global-typography-accent-font-size);
+        line-height: var(--e-global-typography-accent-line-height);
+    }
+
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+
+    .e-con {
+        --container-max-width: 767px;
+    }
+}
